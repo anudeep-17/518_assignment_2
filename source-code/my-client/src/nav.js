@@ -11,9 +11,9 @@ export default function Nav() {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Add</a>
-        <a class="nav-link" href="#">API Implementation</a>
+        <a class="nav-link active" aria-current="page" href="/">Home</a>
+        <a class="nav-link" href="/add">Add</a>
+        <a class="nav-link" href="/News">API Implementation</a>
       </div>
     </div>
   </div>
