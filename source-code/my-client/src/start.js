@@ -5,9 +5,10 @@ import Nav from './nav';
 import Body from './body';
 
 export default function Start() {
+  //returns the start 
   return (
     <><div>
-                     <Nav />
+                          <Nav />
                     </div><div>
                       <Body />
                     </div></>
