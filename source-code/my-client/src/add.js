@@ -31,7 +31,7 @@ export class Add extends React.Component{
     {
         event.preventDefault();
         //link of my repository and edits the addition through express js.
-        const url = `http://44.202.40.217:3000/adder/${this.state.firstnum}/and/${this.state.secondnum}`
+        const url = `http://44.202.40.217:3000/add/adder/${this.state.firstnum}/and/${this.state.secondnum}`
         fetch(url)
         .then((result) => result.json())
         .then(result => {
