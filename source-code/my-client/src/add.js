@@ -14,6 +14,7 @@ export class Add extends React.Component{
         };
     }
 
+    //wprks on changing any of the data in the feilds.
     handleChange = (event) => 
     {
         debugger;
@@ -25,10 +26,12 @@ export class Add extends React.Component{
         })
     }
 
+    //works on clicking the submit button 
     handlesubmit = (event) =>
     {
         event.preventDefault();
-        const url = `http://44.202.40.217:3000/add/addserverrouter/${this.state.firstnum}/and/${this.state.secondnum}`
+        //link of my repository and edits the addition through express js.
+        const url = `http://44.202.40.217:3000/add/adder/${this.state.firstnum}/and/${this.state.secondnum}`
         fetch(url)
         .then((result) => result.json())
         .then(result => {
