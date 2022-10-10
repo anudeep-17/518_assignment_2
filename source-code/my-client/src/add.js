@@ -28,7 +28,7 @@ export class Add extends React.Component{
     handlesubmit = (event) =>
     {
         event.preventDefault();
-        const url = `http://44.202.40.217:3000/addserverrouter/${this.state.firstnum}/and/${this.state.secondnum}`
+        const url = `http://44.202.40.217:3000/add/addserverrouter/${this.state.firstnum}/and/${this.state.secondnum}`
         fetch(url)
         .then((result) => result.json())
         .then(result => {
