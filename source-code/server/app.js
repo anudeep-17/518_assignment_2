@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 //creates a server path to add that gets called during the 
-var adder=require('./routes/add');
+// var adder=require('./routes/add');
 var app = express();
 
 // view engine setup
@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/addserverrouter', adder); // sets the server for usage of the add function
+// app.use('/addserverrouter', adder); // sets the server for usage of the add function
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
