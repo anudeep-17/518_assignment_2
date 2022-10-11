@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Body()
 { 
