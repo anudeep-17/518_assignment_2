@@ -21,15 +21,15 @@ Step - 1: building Client side of the website:
 Part 1: Start with the creating a React app, import bootstrap styling for javascript and design a home webpage with a form that takes name and description which is already set to a default information while a user can change the information. Used bootstrap <a href="https://getbootstrap.com/docs/4.0/components/forms/">form</a> and <a href="https://getbootstrap.com/docs/5.0/components/navbar/">Nav</a> 
 which helps developer can use to import bootstrap predefined styling.
 
-<img src="" />
+<img src="/Screenshot 2022-10-10 19.35.48.png" />
 
 Part 2: add.js, a page where user enters 2 numbers, where we return addition of the two number. while it returns 2 answers one will be resulted from javascript direct edition, and other will be resulted from the express.js server. Making it a good practise of hosting server in the EC2 AWS.
 
-<img src="" />
+<img src="/Screenshot 2022-10-10 19.36.00.png" />
 
 part 3: third party API like NEWS Links to the users, used <a href = "https://rapidapi.com/hub">Rapid API</a> for displaying links.
 
-<img src="" />
+<img src="/Screenshot 2022-10-10 19.36.07.png" />
 
 Step - 2: building server side of the website:
 
