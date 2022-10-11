@@ -88,7 +88,7 @@ pm2 start build/www // starting your server on given port so you wont override p
 
 ---
 
-# Overall expirience: 
+# Overall experience: 
 It was pretty good to use AWS which is one of the leading cloud based service, beign expirience on github hosting, it was fun to expirience something new and more efficint allocation.
 Most enjoyed part was the code deployed is from github so there is the most minimal chance of losing data or progress. 
 
