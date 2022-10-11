@@ -1,7 +1,7 @@
 # 518_assignment_2
 
 The link of the website hosted :<a href = "http://44.202.40.217:3000/"> 518 assingment-2 </a> <br/>
-Recorded video : <a href = "https://albany.zoom.us/rec/share/IUK6HZ_AkSIhRXR1ZEiZc6nGY3S3jW-LA9vx_fKWkt5M833MjT0mQZ8WRFusLMWn.mVG1MUnkid8PpcdW?startTime=1665363058000"> video sibmission of the assignement </a>
+Recorded video : <a href = "https://albany.zoom.us/rec/share/IUK6HZ_AkSIhRXR1ZEiZc6nGY3S3jW-LA9vx_fKWkt5M833MjT0mQZ8WRFusLMWn.mVG1MUnkid8PpcdW?startTime=1665363058000"> video submission of the assignement </a>
 <p>Passcode: 5G.0$Mah</p>
 
 ---
