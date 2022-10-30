@@ -41,9 +41,9 @@ Used Rapid API to call the API links while its rest end api, they are made for j
 
 ---
 # Deployment process:
-Step 1: Create a AWS instance of EC2 in console [expected to have a AWS account setted up]
-Step 2: On the process of creation we do download a key file with extention .pem we edit the security and link it with ssh call.
-Step 3: Once connected install pm2 globally, after installing clone the project repository and deploy your react app [both client and server] 
+Step 1: Create a AWS instance of EC2 in console [expected to have a AWS account setted up] <br>
+Step 2: On the process of creation we do download a key file with extention .pem we edit the security and link it with ssh call.<br>
+Step 3: Once connected install pm2 globally, after installing clone the project repository and deploy your react app [both client and server] <br>
 
 --- 
 # Code blocks 
