@@ -70,8 +70,11 @@ Step 3: Once connected install pm2 globally, after installing clone the project 
  //in my case 
  ssh ./key.pem ubuntu@ec2-44-202-40-217.compute-1.amazonaws.com
  
+ //clone the repo
+ git clone "<git repo url>" //might ask for authentication use personal tokens to have smooth processing.
+ 
  //once connected succesfully.
- npm install -g pm2 // in both client and server folders
+ npm install pm2@latest -g // in both client and server folders
  
  npm install -g serve // to host the server 
 
