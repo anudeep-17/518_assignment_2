@@ -65,10 +65,10 @@ Step 3: Once connected install pm2 globally, after installing clone the project 
 
 2. Deployement
  ```
- ssh ../key.pem ubuntu@amazon link 
+ ssh -i ../key.pem ubuntu@amazon link 
  
  //in my case 
- ssh ./key.pem ubuntu@ec2-44-202-40-217.compute-1.amazonaws.com
+ ssh -i ./key.pem ubuntu@ec2-44-202-40-217.compute-1.amazonaws.com
  
  //clone the repo
  git clone "<git repo url>" //might ask for authentication use personal tokens to have smooth processing.
