@@ -87,6 +87,9 @@ pm2 start build/www // starting your server on given port so you wont override p
  pm2 serve build 3000 -spa // to serve the build
  
  //this will make the website online when you add these ports in security tab of AWS EC2 instance console.
+ 
+ 
+ 
  //if you want to update
  // stop all instance and start again
  pm2 stop all // to stop all the instances.
