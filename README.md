@@ -92,6 +92,7 @@ pm2 start build/www // starting your server on given port so you wont override p
  
  //if you want to update
  // stop all instance and start again
+ 
  pm2 stop all // to stop all the instances.
  ```
 
